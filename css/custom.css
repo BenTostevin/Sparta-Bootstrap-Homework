@@ -1,6 +1,8 @@
+
 html, body {
   width: 100%
 }
+
 
 .navbar {
   background: #6DD3CE;
@@ -19,6 +21,7 @@ html, body {
 .nav header {
   color: #B95F89;
 }
+
 
 .jumbotron .page1{
   height: 500px;
@@ -48,9 +51,51 @@ html, body {
   text-shadow: black 0.1em 0.1em 0.1em;
 }
 
+
+
+
+
+/* #B95F89 pink */
+/* 2EC0F9 blue */
+
+
 footer .navbar {
   background-color: #6DD3CE;
   font-size: 1.3em;
   color: white;
   border-top: 2px solid #006E90;
+}
+
+
+
+
+
+
+/* Tech and business stream descriptions */
+/* Design */
+.business-desc {
+  background-color: rgba(46, 192, 249);
+}
+
+.tech-desc {
+  background-color: rgba(185, 95, 137);
+}
+
+.business-desc , .tech-desc {
+  color: white;
+  padding: 25px;
+}
+
+.descriptions .row {
+  height: 250px;
+}
+
+/* Stretch images to fill container */
+.no-padding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+main img {
+  width: 100%;
 }
