@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .navbar {
   background: #6DD3CE;
   border-bottom: 2px solid #006E90;
@@ -21,3 +22,13 @@
 
 
 /* #B95F89 pink */
+=======
+
+
+footer .navbar {
+  background-color: #6DD3CE;
+  font-size: 1.3em;
+  color: white;
+  border-top: 2px solid #006E90;
+}
+>>>>>>> dev
