@@ -100,3 +100,10 @@ footer .navbar {
 main img {
   width: 100%;
 }
+
+
+@media screen and (max-width: 991px) {
+  .row img {
+    display: none;
+  }
+}
