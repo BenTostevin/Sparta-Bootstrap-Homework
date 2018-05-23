@@ -31,3 +31,14 @@ footer .navbar {
   color: white;
   border-top: 2px solid #006E90;
 }
+
+
+/* Stretch images to fill container */
+.no-padding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+main img {
+  width: 100%;
+}
