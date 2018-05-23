@@ -22,7 +22,7 @@
 
 
 /* #B95F89 pink */
-
+/* 2EC0F9 blue */
 
 
 footer .navbar {
@@ -32,6 +32,28 @@ footer .navbar {
   border-top: 2px solid #006E90;
 }
 
+
+
+
+
+/* Tech and business stream descriptions */
+/* Design */
+.business-desc {
+  background-color: rgba(46, 192, 249);
+}
+
+.tech-desc {
+  background-color: rgba(185, 95, 137);
+}
+
+.business-desc , .tech-desc {
+  color: white;
+  padding: 25px;
+}
+
+.descriptions .row {
+  height: 250px;
+}
 
 /* Stretch images to fill container */
 .no-padding {
