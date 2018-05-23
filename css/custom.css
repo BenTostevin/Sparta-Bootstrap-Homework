@@ -1,6 +1,7 @@
 
 html, body {
-  width: 100%
+  width: 100%;
+  padding-bottom: 20px;
 }
 
 
@@ -61,7 +62,7 @@ html, body {
 
 footer .navbar {
   background-color: #6DD3CE;
-  font-size: 1.3em;
+  font-size: 1.1em;
   color: white;
   border-top: 2px solid #006E90;
 }
