@@ -1,8 +1,138 @@
 
+html, body {
+  width: 100%;
+  padding-bottom: 20px;
+}
 
+
+/* Navbar at top */
+.navbar {
+  background: #6DD3CE;
+  border-bottom: 2px solid #006E90;
+}
+
+.navbar-default .navbar-nav > .active > a {
+  background-color: #006E90;
+  color: white;
+}
+
+.navbar-default .navbar-nav  li  a {
+  color: white;
+}
+
+.nav header {
+  color: #B95F89;
+}
+
+
+/* Jumbotrons */
+.jumbotron .page1{
+  height: 500px;
+  background-image: url("../images/tech2.jpg");
+  background-position: 0% 25%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-shadow: black 0.1em 0.1em 0.1em;
+  padding: 0 100px;
+}
+.jumbotron .page2{
+  height: 500px;
+  background-image: url("../images/business1.jpg");
+  background-position: 0% 25%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  text-shadow: black 0.1em 0.1em 0.1em;
+}
+.jumbotron .page3{
+  height: 500px;
+  background-image: url("../images/tech3.jpg");
+  background-position: 0% 25%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  text-shadow: black 0.1em 0.1em 0.1em;
+}
+
+
+/* Footer */
 footer .navbar {
   background-color: #6DD3CE;
-  font-size: 1.3em;
+  font-size: 1.1em;
   color: white;
   border-top: 2px solid #006E90;
+}
+
+
+/* Images in descriptions */
+.sample1 {
+  background-image: url('../images/BusinessStream.jpeg');
+  background-size: cover;
+  height: 263px;
+  width: 100%;
+}
+
+.sample2 {
+  background: url('../images/TechnologyStream.jpeg');
+  background-size: cover;
+  height:263px;
+  /* width:100%; */
+}
+
+.sample3 {
+  background: url('../images/business2.jpg');
+  background-size: cover;
+  height:263px;
+  /* width:100%; */
+}
+
+.sample4 {
+  background: url('../images/business3.jpg');
+  background-size: cover;
+  height:263px;
+  /* width:100%; */
+}
+
+.sample5 {
+  background: url('../images/tech4.jpg');
+  background-size: cover;
+  height:263px;
+  /* width:100%; */
+}
+
+.sample6 {
+  background: url('../images/tech5.jpg');
+  background-size: cover;
+  height:263px;
+  /* width:100%; */
+}
+
+
+/* Tech and business stream descriptions */
+/* Design */
+.business-desc {
+  background-color: rgba(46, 192, 249);
+}
+
+.tech-desc {
+  background-color: rgba(185, 95, 137);
+}
+
+.business-desc , .tech-desc {
+  color: white;
+  padding: 25px;
+}
+
+
+/* Stretch images to fill container */
+.no-padding {
+  padding: 0;
+}
+
+
+/* Media queries */
+@media screen and (max-width: 991px) {
+  .no-padding {
+    display: none;
+  }
 }
